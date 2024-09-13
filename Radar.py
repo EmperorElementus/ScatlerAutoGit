@@ -15,7 +15,7 @@ from colorama import Fore, Style, init
 import subprocess
 
 init(autoreset=True)
-
+#comment1
 monitoring = False
 
 spinner = cycle(['/', '-', '\\', '|'])
