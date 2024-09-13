@@ -112,7 +112,7 @@ def spinner_animation(stop_event, spinner):
         time.sleep(0.1)
         sys.stdout.write('\b')
     sys.stdout.write("\033[?25h")
-    
+  # analiting of energy  
 def get_energy_analysis():
     battery = psutil.sensors_battery()
     percent = battery.percent
