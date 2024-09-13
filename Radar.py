@@ -92,7 +92,7 @@ def get_memory_analysis():
                    f"Використано: {format_size(memory.used)}, Вільно: {format_size(memory.available)}")
     
     return memory_info, disk_info
-
+# Second comment
 def clean_temp_files():
     try:
         command = "del /q /f /s %TEMP%\* > NUL 2>&1"
