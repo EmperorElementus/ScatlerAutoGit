@@ -16,6 +16,7 @@ import subprocess
 
 init(autoreset=True)
 #comment1
+#comment2
 monitoring = False
 
 spinner = cycle(['/', '-', '\\', '|'])
